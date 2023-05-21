@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Page_1() {
+export default function Home() {
     return(
         <div>
-            Page 1
+            Home
         </div>
     )
 }
