@@ -1,8 +1,9 @@
+@use "../../style/theme" as theme;
+
 .menu {
     position: fixed;
     top: 0;
-    right: 0;
-    min-width: 20vw;
+    right: 5%;
     .menu-items {
         display: flex;
         flex-direction: row;
@@ -10,7 +11,24 @@
         .items {
             cursor: pointer;
             padding: 10px;
-            margin: 0.5rem;   
+            margin: 1.5rem;   
+            font-size: 1.25rem;
+            text-decoration: none;
+            transition: 200ms ease-in-out;
+            color: theme.$platinum;
+            text-align: center;
+            border-radius: 30px;
+            &:hover {
+                background-color: theme.$mountbatten-pink;
+                
+                
+            }
+            &:hover {
+                background-color: pink;
+            }
+            &.active {
+                background-color: black;
+            }
         }
     }
 }

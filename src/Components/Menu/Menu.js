@@ -5,10 +5,10 @@ import { NavLink } from "react-router-dom";
 
 export default function Menu() {
     const pages = [
-        {text: "Home" , link: "/"},
-        {text: "Page 1" , link: "/page-1"},
-        {text: "Page 2" , link: "/page-2"},
-        {text: "Page 3" , link: "/page-3"}
+        {text: "  Home  " , link: "/"},
+        {text: "  Page 1  " , link: "/page-1"},
+        {text: "  Page 2  " , link: "/page-2"},
+        {text: "  Page 3  " , link: "/page-3"}
     ]
 
     return(
